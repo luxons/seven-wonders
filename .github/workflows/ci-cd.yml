@@ -41,7 +41,7 @@ jobs:
 
       # technically optional, brings support for more platform to Docker Buildx
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v1.1.0
 
       # required for Docker build/push
       - name: Set up Docker Buildx
